@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.container{
+  width: 100%;  
+  height: 100%;
+  background-color: aqua;
+  position: relative;
+}
+.navebar{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+   
+    margin-left: 50px;
+  width: 90%;
+}
+.logo{
+    margin-top: 20px;
+    width: 130px;
+    
+}
+.linkitems{
+    display: inline-block;
+    margin: 10px 30px;
+    
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.links:hover{
+    color: blue;
+}
+.title{
+    margin-top: 8%;
+    margin-left: 40%;
+    
+    }
+    .titleh1{
+
+        font-size: 65px;
+        margin-bottom: 10px;
+    }
+    #lastname
+    {
+        color: darkblue;
+    }
+    .types{
+        margin-top: 0PX;
+        margin-left: 50px;
+      .burgs{
+        display: flex;
+      }  
+    }
+   .burg1{
+    width: 400px;
+   }
+   .text1{
+    margin-left: 100px;
+    font-size: larger;
+   }
+   .burg2{
+    width: 300px;
+    margin-left: 45px;
+   }
+   .burg3{
+    width: 400px;
+  margin-left: 5px; 
+}
+.burg4{
+    width: 300px;
+margin-left: 55px;
+}
+#ourburgers{
+ background-color: rgb(237, 181, 76); 
+}
+.ORDER{
+    margin-left: 42%;
+}
+.iconset{ display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+gap: 2rem;}
+.icon{
+  font-size: larger;
+}
+#contact{
+  background-color: rgb(237, 181, 76);
+}
+html{ scroll-behavior: smooth;}
